@@ -1,0 +1,21 @@
+# Common files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# vim
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
