@@ -13,7 +13,7 @@ else
 
     JAIL_NAME=`/usr/sbin/jls -n \
         | /usr/bin/grep "hostname=$1" \
-        | /usr/bin/grep -m 1 -o "name=[A-Za-z0-9_]* " \
+        | /usr/bin/grep -m 1 -o " name=[A-Za-z0-9_]* " \
         | /usr/bin/cut -d '=' -f 2`
 
     jexec $JAIL_NAME /usr/bin/login -f $LOGIN_USER
