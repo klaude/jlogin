@@ -1,6 +1,6 @@
 Log into a FreeBSD jail
 =======================
-`jlogin` is a simple shell script that logs the user into a local FreeBSD jail by hostname, so you don't have to remember the kail's ID or internal name.
+`jlogin` is a simple shell script that logs the user into a local FreeBSD jail by hostname, so you don't have to remember the jail's ID or internal name.
 
 Installation
 ------------
